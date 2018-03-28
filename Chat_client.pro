@@ -11,7 +11,9 @@ CONFIG -= app_bundle
 TEMPLATE = app
 
 SOURCES += main.cpp \
-    chatclient.cpp
+    chatclient.cpp \
+    writethread.cpp
 
 HEADERS += \
-    chatclient.h
+    chatclient.h \
+    writethread.h
